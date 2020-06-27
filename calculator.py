@@ -6,9 +6,8 @@ print("Choose (+)for ADD\nChoose (-)for substract\nChoose (*)for multi\nChoose (
 
 opt=input("Enter your choice here :")
 if opt == '+':
-    add=num1+num2
-    print(str(num1) + " + " +str(num2)+" = "+str(add))
-    print("Addition of Both numbers is "+str(add))
+    print(f"{num1} + {num2} = {num1 + num2}")
+    print(f"Addition of both numbers is {num1 + num2}")
 elif opt == '-':
     add = num1 - num2
     print(str(num1) + " - " + str(num2) + " = " + str(add))
